@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "SpreadsheetView",
     platforms: [
-        .iOS(.v11) // Adjust if needed
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -15,8 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "SpreadsheetView",
-            path: "SpreadsheetView", // Adjust based on your folder structure
-            publicHeadersPath: ""
+            path: "Sources/SpreadsheetView"
         )
     ]
 )
